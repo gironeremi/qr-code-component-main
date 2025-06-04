@@ -21,18 +21,18 @@ body {
 }
 
 #qr-container {
-  border-radius: 20px;
+  border-radius: var(--br);
   width: calc(320px - var(--padding)*2);
   padding: var(--padding);
   background-color: #FFFFFF;
   text-align: center;
 }
 #qr-container img {
-  border-radius: 20px;
+  border-radius: var(--br);
   max-width: 100%;
 }
 
-.punchline {
+h1 {
   font-family: 'Outfit', Arial;
   font-weight: 700;
   font-size: 22px;
